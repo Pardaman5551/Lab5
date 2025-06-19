@@ -15,7 +15,7 @@ $body-bg: #f5f7fa;
   margin: 0 auto;
 }
 
-body.bg-dark {
+[dark-bs-theme="dark"] {
   .nav-link {
     color: #ccc;
 
@@ -41,21 +41,21 @@ body.bg-dark {
     }
   }
 
-  #lightToggle {
+  [data-bs-theme="light"] {
     color: white;
     border-color: white;
     background-color: transparent;
   }
 }
 
-body.bg-light {
-  #darkToggle {
+[data-bs-theme="light"] {
+  [data-bs-theme-value="dark"] {
     color: black;
     border-color: black;
     background-color: transparent;
   }
 
-  #lightToggle {
+  [data-bs-theme-value="light"] {
     color: black;
     border-color: black;
     background-color: white;

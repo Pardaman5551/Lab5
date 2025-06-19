@@ -11874,38 +11874,38 @@ textarea.form-control-lg {
   margin: 0 auto;
 }
 
-body.bg-dark .nav-link, body.bg-dark .discussion-menu a, .discussion-menu body.bg-dark a {
+[dark-bs-theme=dark] .nav-link, [dark-bs-theme=dark] .discussion-menu a, .discussion-menu [dark-bs-theme=dark] a {
   color: #ccc;
 }
-body.bg-dark .nav-link.active, body.bg-dark .discussion-menu a.active, .discussion-menu body.bg-dark a.active {
+[dark-bs-theme=dark] .nav-link.active, [dark-bs-theme=dark] .discussion-menu a.active, .discussion-menu [dark-bs-theme=dark] a.active {
   background-color: blue;
   color: white !important;
 }
-body.bg-dark .card {
+[dark-bs-theme=dark] .card {
   background-color: #333;
   color: #eee;
   border: 1px solid #444;
 }
-body.bg-dark .form-control {
+[dark-bs-theme=dark] .form-control {
   background-color: #222;
   color: #fff;
   border-color: #444;
 }
-body.bg-dark .form-control::placeholder {
+[dark-bs-theme=dark] .form-control::placeholder {
   color: #aaa;
 }
-body.bg-dark #lightToggle {
+[dark-bs-theme=dark] [data-bs-theme=light] {
   color: white;
   border-color: white;
   background-color: transparent;
 }
 
-body.bg-light #darkToggle {
+[data-bs-theme=light] [data-bs-theme-value=dark] {
   color: black;
   border-color: black;
   background-color: transparent;
 }
-body.bg-light #lightToggle {
+[data-bs-theme=light] [data-bs-theme-value=light] {
   color: black;
   border-color: black;
   background-color: white;

@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Animals</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
-<body class="bg-light">
+<body>
 
   <!-- Header -->
   <header class="py-3 mb-3 border-bottom">
     <div class="container d-flex justify-content-between align-items-center flex-wrap">
       <a class="navbar-brand fs-3 fw-bold" href="#">Animals</a>
-      <div class="btn-group">
-        <button class="btn btn-outline-dark btn-sm" id="darkToggle">Dark</button>
-        <button class="btn btn-outline-light btn-sm" id="lightToggle">Light</button>
-      </div>
+      <div class="btn-group" role="group">
+      <button type="button" class="btn btn-outline-light" data-bs-theme-value="light">Light</button>
+      <button type="button" class="btn btn-outline-dark" data-bs-theme-value="dark">Dark</button>
+</div>
     </div>
   </header>
   
