@@ -1,0 +1,19 @@
+{
+  "name": "mypets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass-build": "sass --load-path=node_modules scss-src:css",
+    "sass-watch": "sass --watch --load-path=node_modules scss-src:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.7"
+  },
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}

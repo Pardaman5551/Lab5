@@ -1,0 +1,63 @@
+$body-bg: #f5f7fa;
+
+@use "bootstrap/scss/bootstrap";
+
+.discussion-menu a {
+  @extend .nav-link;
+  padding: 0 0.5rem;
+}
+
+.card-img-top {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+body.bg-dark {
+  .nav-link {
+    color: #ccc;
+
+    &.active {
+      background-color: blue;
+      color: white !important;
+    }
+  }
+
+  .card {
+    background-color: #333;
+    color: #eee;
+    border: 1px solid #444;
+  }
+
+  .form-control {
+    background-color: #222;
+    color: #fff;
+    border-color: #444;
+
+    &::placeholder {
+      color: #aaa;
+    }
+  }
+
+  #lightToggle {
+    color: white;
+    border-color: white;
+    background-color: transparent;
+  }
+}
+
+body.bg-light {
+  #darkToggle {
+    color: black;
+    border-color: black;
+    background-color: transparent;
+  }
+
+  #lightToggle {
+    color: black;
+    border-color: black;
+    background-color: white;
+  }
+}

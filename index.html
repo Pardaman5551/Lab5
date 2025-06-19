@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Animals</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-light">
+
+  <!-- Header -->
+  <header class="py-3 mb-3 border-bottom">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap">
+      <a class="navbar-brand fs-3 fw-bold" href="#">Animals</a>
+      <div class="btn-group">
+        <button class="btn btn-outline-dark btn-sm" id="darkToggle">Dark</button>
+        <button class="btn btn-outline-light btn-sm" id="lightToggle">Light</button>
+      </div>
+    </div>
+  </header>
+  
+  <section class="container mb-4">
+    <div class="row justify-content-between align-items-center mb-3">
+      <div class="col-md-6 mb-3 mb-md-0">
+        <input type="search" class="form-control" placeholder="Search Animals" />
+      </div>
+      <div class="col-md-6 text-end">
+        <ul class="nav justify-content-end nav-pills flex-wrap">
+          <li class="nav-item"><a class="nav-link" href="#">Adaptations</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Behavior</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Conservation</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Diversity</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pet Cards Grid -->
+  <section class="container mb-5">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+
+      <div class="col">
+        <div class="card h-100 text-center">
+          <img src="images/Kitten.jpg" class="card-img-top" alt="Whiskers">
+          <div class="card-body">
+            <h5 class="card-title">Whiskers</h5>
+            <p class="card-text">Friendly cat that loves naps.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 text-center">
+          <img src="images/Dogs.jpg" class="card-img-top" alt="Rex">
+          <div class="card-body">
+            <h5 class="card-title">Rex</h5>
+            <p class="card-text">Loyal and friendly.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 text-center">
+          <img src="images/Parrot.jpg" class="card-img-top" alt="Polly">
+          <div class="card-body">
+            <h5 class="card-title">Polly</h5>
+            <p class="card-text">Talkative parrot with attitude.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/darkmodetoggle.js"></script>
+</body>
+</html>
